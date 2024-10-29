@@ -53,3 +53,15 @@ POKONYA CLONE BRANCH DAN CD KE PBKK-Express
      ```bash
      npm run build
      ```
+
+### 6. **Ganti PORT (Mac)**
+
+```js
+const db = mysql.createConnection({
+  host: 'localhost',
+  user: 'root',        
+  password: '',        
+  database: 'film',    
+  port: 3308          
+});
+```
