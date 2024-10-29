@@ -54,6 +54,12 @@ POKONYA CLONE BRANCH DAN CD KE PBKK-Express
      npm run build
      ```
 
+     kalo gabisa coba
+     1
+     ```
+      npm install vite --save-dev
+     ```
+
 ### 6. **Ganti PORT (Mac)**
 
 ```js
