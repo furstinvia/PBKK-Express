@@ -83,29 +83,23 @@ POKONYA CLONE BRANCH DAN CD KE PBKK-Express
    - **Jalankan server utama PBKK-Express**:
      Di root proyek (folder utama):
      ```bash
-    node index.js
+       node index.js
      ```
    
    - **Jalankan frontend Vue.js cd admin-dashboard **:
 
      Di dalam folder `admin-dashboard`:
      ```bash
-    npm run dev
+       npm run dev
      ```
-
-    perbedaan port front end : 3000
-
-    back end : 3001
-
-    gunanya biar bisa barengan editnya
 
 INI BUILD
+   
+   di cd admin-dashboard
 
-    di cd admin-dashboard
-
-     ```bash
-        npm run build
-     ```
+ ```bash
+ npm run build
+ ```
 
 
 ### 6. **Ganti PORT kalo perlu (Mac)**
@@ -126,4 +120,8 @@ NOTE :
 
 tetep jalanin backend nya di localhost:3001
 
+  perbedaan port front end : 3000
 
+ back end : 3001
+
+   gunanya biar bisa barengan editnya
